@@ -1,0 +1,178 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Baloo Tamma 2', cursive;
+  color: #40514E;
+}
+
+h1 {
+  margin-top: 0;
+  font-family: 'Indie Flower', cursive;
+  font-size: 3.50rem;
+  color: #263f44;
+}
+
+h2 {
+  font-family: 'Raleway', sans-serif;
+  color: #263f44;
+  font-size: 1.50rem;
+  padding-bottom: 10px;
+}
+
+h3 {
+  font-family: 'Raleway', sans-serif;
+  color: #2a7886;
+  font-size: 1.20rem;
+}
+h4 {
+  font-size: 1rem;
+  color: #40514E;
+  line-height: normal;
+}
+
+p {
+  font-size: 1.2rem;
+  color: #40514E;
+  line-height: normal;
+}
+
+hr {
+  border: dotted #94aa2a 5px;
+  border-bottom: none;
+  width: 7%;
+  margin: 100px auto;
+}
+
+a {
+  color: #EAF6F6;
+  font-family: 'Baloo Tamma 2', cursive;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #94aa2a;
+}
+
+/*******************************CLASSES*******************************/
+.profilepic {
+  margin-top: 50px;
+}
+
+.profile {
+  width: 50%;
+  margin: auto;
+}
+.subtitle {
+  font-family: 'Baloo Tamma 2', cursive;
+  color: #2a7886;
+  font-weight: bold;
+}
+.ammatour {
+  text-decoration: underline;
+}
+
+.sloth {
+  float: left;
+  margin-right: 30px;
+}
+
+.unicorn {
+  float: left;
+  margin-right: 30px;
+}
+.program {
+  float: left;
+  margin-right: 50px;
+}
+
+.top-container {
+  background-color: #bae5e5;
+  position: relative;
+  padding-top: 150px;
+}
+
+.middle-container {
+  background-color: white;
+  margin: 80px 0;
+}
+
+.bottom-container {
+  background-color: #a0855b;
+  padding: 50px 0 20px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 200px;
+  bottom: 250px;
+}
+
+.footer-link {
+  font-style: normal;
+  font-size: 1.5rem;
+}
+
+.bottom-info {
+  font-size: 0.8rem;
+  color: white;
+  margin: 0;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 70px auto;
+  text-align: left;
+}
+.skill-row2 {
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+}
+.skill-row3 {
+  width: 50%;
+  margin: 70px auto;
+  text-align: left;
+}
+.skills {
+  margin-top: 70px;
+}
+
+.contact-me {
+  margin: 40px auto 60px;
+  width: 40%
+}
+
+.btn {
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 10px;
+  color: #FFFFFF;
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
+  font-weight: 100;
+  padding: 15px;
+  background-color: #94aa2a;
+  -webkit-box-shadow: 1px 1px 7px 0;
+  -moz-box-shadow: 1px 1px 7px 0;
+  box-shadow: 1px 1px 7px 0;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+}
+
+.btn:hover {
+  background: #FFFFFF;
+  border: solid #94aa2a 0;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 10px;
+  text-decoration: none;
+}
