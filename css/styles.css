@@ -104,8 +104,8 @@ a:hover {
 }
 
 .top-cloud {
-  position: static;
   margin-left: 700px;
+  margin-right: 100px;
   margin-bottom: -200px;
 
 }
