@@ -89,7 +89,8 @@ a:hover {
 .top-container {
   background-color: #bae5e5;
   position: relative;
-  padding-top: 150px;
+  padding-top: 50px;
+  width: 100%;
 }
 
 .middle-container {
@@ -103,15 +104,16 @@ a:hover {
 }
 
 .top-cloud {
-  position: absolute;
-  right: 300px;
-  top: 50px;
+  position: static;
+  margin-left: 900px;
+  margin-bottom: -200px;
+
 }
 
 .bottom-cloud {
-  position: absolute;
-  left: 200px;
-  bottom: 250px;
+  position: static;
+  margin-left: -150px;
+  margin-bottom: 250px;
 }
 
 .footer-link {
